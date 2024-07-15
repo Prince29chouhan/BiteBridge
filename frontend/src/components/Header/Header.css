@@ -1,0 +1,64 @@
+.hero-image {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+    transition: filter 0.3s ease;
+    
+  }
+  
+  .hero-image:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 227, 68, 0.8));
+  }
+  
+  
+  input::placeholder {
+    color: #a0aec0; /* Tailwind's text-gray-400 */
+  }
+
+  .border-box{
+    box-sizing: border-box;
+
+position: absolute;
+width: 248.31px;
+height: 248.31px;
+left: 357px;
+top: 3883.24px;
+
+transform: rotate(178.69deg);
+  }
+
+  .dassed-arrow{
+    stroke-width: 2px;
+stroke: var(--Style, #F54748);
+opacity: 0.5;
+  }
+
+.right-section{
+  background-image: url('../../assets/bannerBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+  .fire{
+    width: 46px;
+height: 46px;
+flex-shrink: 0;
+align-items: center;
+justify-content: center;
+margin-left: 275px;
+  }
+
+  .heart-box{
+    width: 139px;
+height: 28px;
+flex-shrink: 0;
+  }
+
+/* .searchField{
+  border-radius: 100px;
+border: 0.5px solid var(--Style, #191919);
+background: #FFF;
+}
+   */
+  /* Add Font Awesome styles if using CDN */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  
